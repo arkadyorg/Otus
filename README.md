@@ -9,3 +9,8 @@ HW1
     node
     prometheus
     bbox
+
+HW2:
+
+1) Install VM @ ubuntu111
+2) Config prometheus @ubuntu108  label site: prod -> prometheus01
