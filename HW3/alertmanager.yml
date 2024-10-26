@@ -25,7 +25,7 @@ receivers:
       api_url: 'https://api.telegram.org'
       chat_id: -AA
       parse_mode: ''
-      message: "🚨 Alertmanager 🚨\n--\n🔺 Alertname: {{ .GroupLabels.alertname}}\n🔺 Severity: {{ .CommonLabels.severity }}\n📌 {{ range .Alerts }}{{ .Annotations.summary }}\n{>
+      message: "🚨 Alertmanager 🚨\n--\n🔺 Alertname: {{ .GroupLabels.alertname}}\n🔺 Severity: {{ .CommonLabels.severity }}\n📌 {{ range .Alerts }}{{ .Annotations.summary }}\n{{ end }}"
 
   - name: 'telegramw'
     telegram_configs:
@@ -33,4 +33,4 @@ receivers:
       api_url: 'https://api.telegram.org'
       chat_id: -BB
       parse_mode: ''
-      message: "🚨 wAlertmanager 🚨\n--\n🔺 Alertname: {{ .GroupLabels.alertname}}\n🔺 Severity: {{ .CommonLabels.severity }}\n📌 {{ range .Alerts }}{{ .Annotations.summary }}\n>
+      message: "🚨 wAlertmanager 🚨\n--\n🔺 Alertname: {{ .GroupLabels.alertname}}\n🔺 Severity: {{ .CommonLabels.severity }}\n📌 {{ range .Alerts }}{{ .Annotations.summary }}\n{{ end }}"
