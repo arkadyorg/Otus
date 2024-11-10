@@ -1,3 +1,3 @@
 !/bin/bash
 
-echo $((95 + $RANDOM % 100))
+echo $((1 + $RANDOM % 100))
