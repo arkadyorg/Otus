@@ -22,3 +22,10 @@ HW4:
 4) New Dashboard at App, add varibles
 5) New Dashboard at Infra, add varibles
 
+HW6:
+1) + new server 192.168.2.81
+2) Install I+C+K @ 192.168.2.81 
+3) Install T @ 192.168.2.108 (wordpress)
+4) Config
+5) Add alert rules
+6) Check
