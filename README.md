@@ -29,3 +29,18 @@ HW6:
 4) Config
 5) Add alert rules
 6) Check
+
+
+
+
+
+
+
+
+
+
+
+HW9:
+1) Install Promtail @ 192.168.2.108
+2) Install Loki @ 192.168.2.111
+3) Add Loki datasource + graph at Grafana
